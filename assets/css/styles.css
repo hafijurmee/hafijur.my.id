@@ -1444,6 +1444,8 @@ button {
 .border-accent1 {
   --tw-border-opacity: 1;
   border-color: #2B408B;
+  background-color: #2B408B !important;
+  color: #ffffff !important;
 }
 
 .border-gray-300 {
