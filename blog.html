@@ -20,29 +20,10 @@
     />
 
     <!-- Plugins css -->
-    <link rel="stylesheet" href="./assets/css/mobilemenu.css" />
-    <!-- <link rel="stylesheet" href="./assets/css/glightbox.min.css" /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <!-- Tailwind css -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-
-    <script>
-      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-      if (
-        localStorage.getItem("theme-color") === "dark" ||
-        (!("theme-color" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
-      }
-      if (localStorage.getItem("theme-color") === "light") {
-        document.documentElement.classList.remove("dark");
-      }
-    </script>
-  </head>
+    <link rel="stylesheet" href="assets/css/mobilemenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
   <body class="font-rubik dark:bg-dark_primary_bg">
     <!-- Preloader start -->
     <!-- <div id="preloader">
