@@ -1444,6 +1444,9 @@ button {
 .border-accent1 {
   --tw-border-opacity: 1;
   border-color: #2B408B;
+}
+
+.hafijur-social-icon {
   background-color: #2B408B !important;
   color: #ffffff !important;
 }
